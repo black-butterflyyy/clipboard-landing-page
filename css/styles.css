@@ -124,12 +124,21 @@ main {
   height: 100%;
 }
 
-.first-section-image {
+.first-section img {
+  object-fit: cover;
   width: 100%;
   height: 100%;
 }
 
-.first-section img {
+/*
+  Second section
+*/
+.second-section {
+  width: 100vw;
+  height: 100%;
+}
+
+.second-section img {
   object-fit: cover;
   width: 100%;
   height: 100%;
