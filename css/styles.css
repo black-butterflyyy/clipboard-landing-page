@@ -143,3 +143,28 @@ main {
   width: 100%;
   height: 100%;
 }
+
+/*
+  Third section
+*/
+
+.third-section {
+  width: 100vw;
+  height: 100%;
+}
+
+.tool-list-item {
+  margin-bottom: 5rem;
+}
+
+.tool-list-item h3 {
+  margin-bottom: 2rem;
+}
+
+.third-section-logos li {
+  margin-bottom: 10rem;
+}
+
+.third-section-logos li:first-of-type {
+  margin-top: 15rem;
+}
