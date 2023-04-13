@@ -96,10 +96,12 @@ main {
 .download-buttons {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn {
-  width: 100%;
+  width: 40rem;
   color: #fff;
   background-color: blue;
   border-radius: 50px;
@@ -167,4 +169,12 @@ main {
 
 .third-section-logos li:first-of-type {
   margin-top: 15rem;
+}
+
+/*
+  Fourth section
+*/
+
+.fourth-section {
+  width: 100vw;
 }
