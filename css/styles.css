@@ -281,4 +281,19 @@ footer {
   .tool-list-item {
     margin-left: 1rem;
   }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: left;
+  }
+  .footer-links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .footer-links .col {
+    padding: 3rem;
+  }
 }
