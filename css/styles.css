@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: "Bai Jamjuree", sans-serif;
+  font-family: 'Bai Jamjuree', sans-serif;
   font-size: 1.8rem;
   color: hsl(201, 11%, 66%);
   line-height: 1.6;
@@ -73,7 +73,7 @@ main {
     Hero section
 */
 .hero-section {
-  background-image: url("../images/bg-header-mobile.png");
+  background-image: url('../images/bg-header-mobile.png');
   background-size: cover;
   width: 100vw;
   display: flex;
@@ -202,10 +202,17 @@ footer {
   width: 5rem;
   height: 5rem;
   object-fit: cover;
+  position: relative;
+  left: 15px;
 }
 
 .footer-links li {
   margin-bottom: 2rem;
+}
+
+.footer-links a:hover {
+  color: hsl(171, 66%, 44%);
+  cursor: pointer;
 }
 
 .social-media-links ul {
@@ -215,4 +222,9 @@ footer {
 
 .social-media-links li {
   padding: 0 2rem;
+  cursor: pointer;
+}
+
+.social-media-links li:hover path {
+  fill: hsl(171, 66%, 44%);
 }
